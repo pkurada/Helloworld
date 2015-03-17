@@ -13,6 +13,7 @@ namespace HelloWorldTests
         [TestMethod]
         public void TestCreateMessage()
         {
+            //Adding a new comment at 3 PM to see if build trigger works
             Assert.AreEqual("Hello World!", Program.CreateMessage("Hello World!"));
         }
     }
